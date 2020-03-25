@@ -1,12 +1,12 @@
 aiomysql
 ========
-.. image:: https://travis-ci.com/aio-libs/aiomysql.svg?branch=master
-    :target: https://travis-ci.com/aio-libs/aiomysql
-.. image:: https://codecov.io/gh/aio-libs/aiomysql/branch/master/graph/badge.svg
-    :target: https://codecov.io/gh/aio-libs/aiomysql
+.. image:: https://travis-ci.com/Privex/aiomysql.svg?branch=master
+    :target: https://travis-ci.com/Privex/aiomysql
+.. image:: https://codecov.io/gh/Privex/aiomysql/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/Privex/aiomysql
     :alt: Code coverage
-.. image:: https://badge.fury.io/py/aiomysql.svg
-    :target: https://badge.fury.io/py/aiomysql
+.. image:: https://badge.fury.io/py/privex-aiomysql.svg
+    :target: https://badge.fury.io/py/privex-aiomysql
     :alt: Latest Version
 .. image:: https://readthedocs.org/projects/aiomysql/badge/?version=latest
     :target: https://aiomysql.readthedocs.io/
@@ -24,6 +24,11 @@ Internally **aiomysql** is copy of PyMySQL, underlying io calls switched
 to async, basically ``yield from`` and ``asyncio.coroutine`` added in
 proper places)). `sqlalchemy` support ported from aiopg_.
 
+**NOTE:** This is a **fork** maintained by [Privex Inc.](https://www.privex.io), which we use internally to speed up
+development when we require features / bug fixes that haven't yet / won't be accepted into upstream.
+
+**FORK PACKAGE:** We publish the package ``privex-aiomysql`` to PyPi for this fork. Please be warned that the versioning may not
+match upstream's versioning, due to modifications made by ourselves.
 
 Documentation
 -------------

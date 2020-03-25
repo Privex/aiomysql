@@ -48,7 +48,7 @@ classifiers = [
 ]
 
 
-setup(name='aiomysql',
+setup(name='privex_aiomysql',
       version=read_version(),
       description=('MySQL driver for asyncio.'),
       long_description='\n\n'.join((read('README.rst'), read('CHANGES.txt'))),
